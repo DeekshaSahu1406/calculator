@@ -34,7 +34,7 @@ public class calculator {
     public static double performOperation(int choice, double num1, double num2) {
         double result = 0.0;
 
-        switch (choice) {
+        switch (choice) {git
             case 1:
                 result = add(num1, num2);
                 break;
@@ -48,5 +48,8 @@ public class calculator {
 
     public static double add(double a, double b) {
         return a + b;
+    }
+    public static double subtract(double a, double b) {
+        return a - b;
     }
 }
