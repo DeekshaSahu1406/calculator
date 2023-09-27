@@ -38,7 +38,6 @@ public class calculator {
     }
 
 
-
     private static double performOperation(int choice, double num1, double num2) {
         return num1+num2;
     }
@@ -51,6 +50,7 @@ public class calculator {
 
 
     }
+
 
 
 
@@ -94,4 +94,12 @@ public class calculator {
     public static double subtract(double a, double b) {
         return a - b;
     }
+
+
+    public static double divide(double a, double b) {
+        return a/b;
+    }
+
+
+
 }
