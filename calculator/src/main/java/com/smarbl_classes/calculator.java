@@ -31,4 +31,22 @@ public class calculator {
         scanner.close();
     }
 
+    public static double performOperation(int choice, double num1, double num2) {
+        double result = 0.0;
+
+        switch (choice) {
+            case 1:
+                result = add(num1, num2);
+                break;
+
+            default:
+                result = Double.NaN; // Represents an invalid result
+        }
+
+        return result;
+    }
+
+    public static double add(double a, double b) {
+        return a + b;
+    }
 }
