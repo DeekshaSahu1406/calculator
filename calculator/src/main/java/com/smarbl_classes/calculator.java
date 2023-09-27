@@ -1,7 +1,11 @@
 package com.smarbl_classes;
 
+import java.util.Scanner;
+
 public class calculator {
     public static void main(String[] args) {
+
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Simple Calculator");
@@ -23,6 +27,7 @@ public class calculator {
 
         double result = performOperation(choice, num1, num2);
 
+
         if (Double.isNaN(result)) {
             System.out.println("Error: Invalid operation or division by zero!");
         } else {
@@ -31,6 +36,22 @@ public class calculator {
 
         scanner.close();
     }
+
+
+
+    private static double performOperation(int choice, double num1, double num2) {
+        return num1+num2;
+    }
+
+
+    public  void add(int a,int b){
+      System.out.println("addition of two numbers"+(a+b));
+      calculator c=new calculator();
+      c.add(56,784);
+
+
+    }
+
 
 
         int choice = scanner.nextInt();
