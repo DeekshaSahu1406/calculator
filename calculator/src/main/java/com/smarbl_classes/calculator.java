@@ -38,6 +38,7 @@ public class calculator {
     }
 
 
+
     private static double performOperation(int choice, double num1, double num2) {
         return num1+num2;
     }
@@ -50,6 +51,7 @@ public class calculator {
 
 
     }
+
 
 
         int choice = scanner.nextInt();
