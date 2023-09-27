@@ -17,7 +17,7 @@ public class calculator {
         int choice = scanner.nextInt();
 
         System.out.print("Enter the first number: ");
-
+System.out.println("Test ");
 
         scanner.close();
     }
